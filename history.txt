@@ -1,0 +1,259 @@
+    1  [200~https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)~
+    2  cd /
+    3  cd
+    4  cd C
+    5  git config --global user.name "Pavlo"
+    6  git config --global user.email "panukhnykpa@gmail.com"
+    7  git config --global -l
+    8  git config --global user.email-copy "pascapan@meta.ua"
+    9  git config --global -l
+   10  git config --global -ls
+   11  git config --global -l
+   12  ls -a
+   13  ls-la
+   14  ls -la
+   15  cd /c
+   16  ls
+   17  cd git/
+   18  ls
+   19  mkdir 281024-wdm
+   20  ls
+   21  cd 281024-wdm/
+   22  mkdir pavlo_panukhnyk
+   23  cd pavlo_panukhnyk/
+   24  touch file.txt
+   25  ls
+   26  git add .
+   27  git add
+   28  git
+   29  git status
+   30  git init
+   31  git add .
+   32  git status
+   33  git commit -m "Inital commit"
+   34  git log
+   35  git remote add origin https://github.com/Pavlo-Pan/git-intro.git
+   36  git branch -M main
+   37  git status
+   38  [200~git push -u origin main
+   39  200~git push -u origin main
+   40  git push -u origin main
+   41  git status
+   42  cd ..
+   43  git clone [200~https://github.com/Pavlo-Pan/intro.git
+   44  git clone https://github.com/Pavlo-Pan/intro.git
+   45  git init
+   46  rm -rf .git
+   47  cd pavlo_panukhnyk/
+   48  git init
+   49  rm -rf .git
+   50  git init
+   51  git status
+   52  git add .
+   53  git commit -m "My photo"
+   54  git clone git@github.com:Pavlo-Pan/git-intro.git
+   55  git push -u origin main
+   56  ls
+   57  cd git-intro/
+   58  ls
+   59  git add
+   60  git add photo.jpg photo.jpg 
+   61  git commit -m "Added photo"
+   62  git branch -M main
+   63  git remote add origin git@github.com:Pavlo-Pan/git-intro.git
+   64  git push -u origin main
+   65  #!/bin/bash
+   66  USER="Pavlo"
+   67  echo "Current date and time: $(date)"
+   68  PROCESS_COUNT=$(ps -ef | grep sshd | grep -v grep | wc -l)
+   69  echo "Number of processes named 'sshd': $PROCESS_COUNT"
+   70  FILE_PERMISSIONS=$(ls -l /opt/281024-wdm/Pavlo_Panukhnyk/passwd/pass | awk '{print $1}')
+   71  echo "File permissions for /opt/281024-wdm/Pavlo_Panukhnyk/passwd/pass: $FILE_PERMISSIONS"
+   72  .gitignore
+   73  ls
+   74  ls -la
+   75  touch passwords
+   76  git status
+   77  nano .gitignore
+   78  git status
+   79  nano .gitignore
+   80  git status
+   81  ls -la
+   82  git status
+   83  git add
+   84  git add .
+   85  git status
+   86  git commit -m "dobavil git ignore"
+   87  git push origin main
+   88  git push main
+   89  git push 
+   90  git status
+   91  git remote add
+   92  git remote add origin git@github.com:Pavlo-Pan/git-intro.git
+   93  git push -u origin main
+   94  git status
+   95  git push
+   96  get remote add origin
+   97  get remote add origin 'github.com:Pavlo-Pan/git-intro.git'
+   98  git clone 'github.com:Pavlo-Pan/git-intro.git'
+   99  git clone github.com:Pavlo-Pan/git-intro.git
+  100  git status
+  101  git push
+  102  git remote
+  103  git push
+  104  git pull
+  105  git pull
+  106  git push
+  107  git status
+  108  git init
+  109  git branch
+  110  ls -la
+  111  git checkout -b gitignore
+  112  touch .gitignore
+  113  ls
+  114  ді
+  115  ls
+  116  ls -la
+  117  git branch
+  118  git status
+  119  nano .gitignore
+  120  git add
+  121  git add .gitignore
+  122  git status
+  123  git commit -m "add a file .gitignore"
+  124  git remote add origin https://github.com/Pavlo-Pan/git-branch.git
+  125  git status
+  126  git remote
+  127  git remote -v
+  128  git push
+  129  git push origin main
+  130  git push origin gitignore
+  131  git branch
+  132  git branch main
+  133  git branch
+  134  git push origin main
+  135  git status
+  136  git branch
+  137  git push
+  138  git pull
+  139  git branch
+  140  git checkout -b main
+  141  git checkout  main
+  142  git branch
+  143  git push
+  144  git status
+  145  git checkout -b newbranch
+  146  git push
+  147  git push origin newbranch
+  148  git branch
+  149  ls
+  150  rm photo.jpg 
+  151  git status
+  152  git add
+  153  git add photo.jpg 
+  154  git commit -m "delete photo"
+  155  git push
+  156  git push origin newbranch
+  157  git pull
+  158  git pull remote newbranch
+  159  git pull  newbranch
+  160  git push
+  161  git status
+  162  touch 12.txt
+  163  ls
+  164  git add 12.txt
+  165  git status
+  166  git commit -m "new file 12.txt"
+  167  git push
+  168  git push origin newbranch
+  169  git branch
+  170  git branch main
+  171  git checkout main
+  172  ls
+  173  git pull
+  174  ls
+  175  git push
+  176  ls
+  177  exit
+  178  git status
+  179  ls 
+  180  ls -a
+  181  ls la
+  182  ls -la
+  183  git status
+  184  git add .
+  185  git status
+  186  git commit -m "fixed js"
+  187  git push original main
+  188  git push 
+  189  git status
+  190  git add .
+  191  git commit -m "fixed js"
+  192  git push 
+  193  git log
+  194  touch newfile
+  195  git add newfile 
+  196  git commit -m "add newfile"
+  197  git status
+  198  git push
+  199  git log
+  200  git status
+  201  git remote
+  202  git remote -v
+  203  new branch
+  204  git branch
+  205  git checkout newbranch
+  206  touch newfile2
+  207  git add newfile2 
+  208  git commit -m "add in new branch newfile2"
+  209  git push
+  210  git push origin newbranch
+  211  git status
+  212  nano newfile2
+  213  git status
+  214  git commit -m "add in new newfile2 text"
+  215  git add
+  216  git add .
+  217  git commit -m "add in new newfile2 text"
+  218  git status
+  219  git push
+  220  git push origin newbranch
+  221  git push --force origin newbranch
+  222  [200~
+  223  exit
+  224  git remote add origin https://github.com/Pavlo-Pan/example-repo.git
+  225  git branch -M main
+  226  git push -u origin main
+  227  git status
+  228  git add
+  229  git add .
+  230  git commit -m "new repo"
+  231  git push
+  232  git status
+  233  git add .
+  234  git status
+  235  touch .gitignore
+  236  git add .
+  237  git status
+  238  git add ../git-branch/ ../git-intro/
+  239  git status
+  240  git commit -m "new aa"
+  241  git push
+  242  git status
+  243  git checkout -b feature
+  244  ls la
+  245  ls -la
+  246  git clone https://github.com/Pavlo-Pan/hw12
+  247  cd hw12
+  248  git checkout -b feature
+  249  git status
+  250  git add .
+  251  git commit -m "Add changes to README.md and .gitignore"
+  252  git push origin feature
+  253  git commit --amend -m "Add changes to README.md and .gitignore (ammend)"
+  254  git push origin feature --force
+  255  git checkout main
+  256  git merge feature
+  257  [200~git push origin main
+  258  git push origin main
+  259  history > history.txt
